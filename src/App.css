@@ -1,0 +1,197 @@
+/* ================================= 
+  Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+  font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+body {
+  color: #576366;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header h1{
+  margin-left: 2em;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav  {
+  background: #edeff0;
+  
+  
+}
+
+.top-nav li {
+  background: #edeff0;
+  display: inline-block;
+}
+
+.top-nav a {
+  font-size: .95em;
+  color: #222;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  padding: 1em;
+  transition: .2s;
+  text-decoration: none;
+}
+
+.top-nav a:hover,
+.top-nav .active {
+  color: #fff;
+  background: #000000;
+}
+.text-container{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.text-container p{
+  text-align: left;
+}
+.author-block{
+  display: flex;
+  justify-content: space-evenly;
+}
+.text-container h3{
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+#root{
+  justify-content: center;
+}
+.container {
+  
+  background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-self: start;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 2m;
+  border-radius: .5em;
+  
+  
+}
+
+.card{
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  background: #fff;
+  border: 2px solid rgb(0, 0, 0);
+  
+}
+.card h3{
+  margin:0px;
+}
+
+.card p{
+  margin:0px;
+  font-size: small;
+}
+
+.card-info{
+  text-align: center;
+  display: flex;
+}
+
+.card-info p {
+  font-size: smaller;
+  text-align: left;
+  margin: none;
+}
+
+.card-stat{
+  text-align: center;
+  margin:auto;
+  padding: 8px;
+}
+
+.card progress{
+  display: block;
+  margin: auto;
+  height: 30px;
+  margin-bottom: none;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.grass{
+  border: 2px solid rgb(66, 154, 66);
+}
+
+.fire{
+  border: 2px solid rgb(188, 67, 67);
+}
+
+.water{
+  border: 2px solid rgb(136, 185, 241);
+}
+
+.bug{
+  border: 2px solid rgb(144, 107, 27);
+}
+
+.fairy{
+  border: 2px solid rgb(202, 109, 152);
+}
+
+.normal{
+  border: 2px solid rgb(125, 127, 114);
+}
+
+.poison{
+  border: 2px solid rgb(105, 17, 86);
+}
+
+.ground{
+  border: 2px solid rgb(203, 140, 45);
+}
+
+.electric{
+  border: 2px solid yellow;
+}
+
+.select-pokemon{
+  max-width:90%;
+  width: 150px;
+}
+
+table, th, td {
+  border: 1px solid;
+  padding: 3px;
+}
+
+.bid-history{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+  align-self: center;
+}
+
+.search-box{
+  text-align: right;
+}
